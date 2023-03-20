@@ -5,3 +5,4 @@ grader takes a single argumnet and return the grade according to the grading con
 defined funtion speedDetector, decides whether your license should be revoked or not.
 takes in one argument.
 
+declared the last function that calculates the net salary given salary and benfits. it calulates nhif, nssf, deductions. second argument defaults to zero.

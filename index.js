@@ -1,4 +1,5 @@
 function grader(marks){
+    if (marks > 0 && marks<=100){
     if(marks >= 79){
         return "A";
     }else if(marks>=60 && marks<79){
@@ -10,6 +11,9 @@ function grader(marks){
     }else{
         return "E";
     }
+}else{
+    return "marks have to be between 0 and 100";
+}
 }
 
 function speedDetector(speed){
