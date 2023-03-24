@@ -53,7 +53,7 @@ const tax=(grossIncome)=>{
 }
    
 
-    let nhif=(grossIncome){
+    let nhif=(grossIncome)=>{
         if (grossIncome<=5999){
             return 150;
             
